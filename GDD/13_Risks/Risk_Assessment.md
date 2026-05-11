@@ -1,32 +1,34 @@
-\section{Riesgos y Plan de Mitigacion}
+\subsection{Riesgos técnicos}
 
-\subsection{Riesgo tecnico: conflictos de fusion en Unity}
+\subsubsection*{Conflictos de fusión en Unity}
 
-Las escenas \texttt{.unity} y los prefabs pueden ser dificiles de fusionar en Git, especialmente cuando varios integrantes modifican los mismos archivos. Esto puede provocar perdida de trabajo, conflictos extensos o errores dificiles de rastrear.
+Las escenas \texttt{.unity} y los prefabs pueden ser difíciles de fusionar en Git, especialmente cuando varios integrantes modifican los mismos archivos. Esto puede provocar pérdida de trabajo, conflictos extensos o errores difíciles de rastrear.
 
-\textbf{Mitigacion.} Cada integrante trabajara en escenas de prueba separadas, por ejemplo \texttt{Level\_Denis} o \texttt{Level\_Dev2}. Solo una persona responsable integrara prefabs probados en la escena principal. Ademas, se recomienda hacer commits pequenos y frecuentes.
+\textbf{Mitigación.} Cada integrante trabajará en escenas de prueba separadas, por ejemplo \texttt{Level\_Denis} o \texttt{Level\_Dev2}. Solo una persona responsable integrará prefabs probados en la escena principal. Además, se recomienda hacer commits pequeños y frecuentes.
 
-\subsection{Riesgo de diseno: scope creep}
+\subsubsection*{Rendimiento}
 
-El alcance excesivo puede surgir si el equipo intenta crear demasiados niveles, enemigos, mecanicas o sistemas narrativos para el tiempo disponible. Esto puede llevar a una experiencia incompleta y poco pulida.
+La instanciación constante de proyectiles, partículas o textos flotantes puede generar caídas de FPS, especialmente durante combates intensos.
 
-\textbf{Mitigacion.} Se adopta una filosofia de corte vertical. Es preferible completar un nivel con el cien por ciento de las mecanicas principales funcionando que producir varios niveles vacios o incompletos.
+\textbf{Mitigación.} Si las pruebas evidencian problemas de rendimiento, se reemplazará el uso recurrente de \texttt{Instantiate} y \texttt{Destroy} por un sistema de \emph{Object Pooling}. También se revisará el uso de colliders, partículas y actualizaciones por frame.
 
-\subsection{Riesgo tecnico: rendimiento}
+\subsubsection*{Integración}
 
-La instanciacion constante de proyectiles, particulas o textos flotantes puede generar caidas de FPS, especialmente durante combates intensos.
+Los sistemas de movimiento, combate, enemigos, UI y audio pueden funcionar individualmente pero fallar al integrarse. Este riesgo es común en prototipos con varias áreas de trabajo paralelas.
 
-\textbf{Mitigacion.} Si las pruebas evidencian problemas de rendimiento, se reemplazara el uso recurrente de \texttt{Instantiate} y \texttt{Destroy} por un sistema de \emph{Object Pooling}. Tambien se revisara el uso de colliders, particulas y actualizaciones por frame.
+\textbf{Mitigación.} Se realizarán integraciones semanales en la rama \texttt{dev}. Cada integración debe probar una escena común con los sistemas principales activos.
 
-\subsection{Riesgo de integracion}
+\subsection{Riesgos de diseño}
 
-Los sistemas de movimiento, combate, enemigos, UI y audio pueden funcionar individualmente pero fallar al integrarse. Este riesgo es comun en prototipos con varias areas de trabajo paralelas.
+\subsubsection*{Scope creep}
 
-\textbf{Mitigacion.} Se realizaran integraciones semanales en la rama \texttt{dev}. Cada integracion debe probar una escena comun con los sistemas principales activos.
+El alcance excesivo puede surgir si el equipo intenta crear demasiados niveles, enemigos, mecánicas o sistemas narrativos para el tiempo disponible. Esto puede llevar a una experiencia incompleta y poco pulida.
 
-\subsection{Riesgo de balance}
+\textbf{Mitigación.} Se adopta una filosofía de corte vertical. Es preferible completar un nivel con el cien por ciento de las mecánicas principales funcionando que producir varios niveles vacíos o incompletos.
 
-Una dificultad mal calibrada puede hacer que el juego resulte frustrante o demasiado simple. Esto afectaria la percepcion de calidad del prototipo.
+\subsubsection*{Balance}
 
-\textbf{Mitigacion.} Se implementaran variables ajustables para dano, vida, velocidad, recursos y ubicacion de checkpoints. El balance final se realizara durante la fase de QA.
+Una dificultad mal calibrada puede hacer que el juego resulte frustrante o demasiado simple. Esto afectaría la percepción de calidad del prototipo.
+
+\textbf{Mitigación.} Se implementarán variables ajustables para daño, vida, velocidad, recursos y ubicación de checkpoints. El balance final se realizará durante la fase de QA.
 

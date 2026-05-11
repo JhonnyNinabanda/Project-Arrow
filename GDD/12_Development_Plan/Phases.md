@@ -1,26 +1,26 @@
-\section{Plan de Desarrollo: Fases}
+\subsection{Fases}
 
-\subsection{Fase 1: Configuracion y base tecnica}
+\subsubsection*{Fase 1: Configuración y base técnica}
 
-La primera fase contempla la creacion del repositorio en GitHub, configuracion de \texttt{.gitignore}, activacion de Git LFS, preparacion del proyecto en Unity y desarrollo de los controles base del jugador. El resultado esperado es un personaje capaz de moverse, saltar y responder correctamente a entradas.
+La primera fase contempla la creación del repositorio en GitHub, configuración de \texttt{.gitignore}, activación de Git LFS, preparación del proyecto en Unity y desarrollo de los controles base del jugador. El resultado esperado es un personaje capaz de moverse, saltar y responder correctamente a entradas.
 
-\subsection{Fase 2: Integracion visual y colisiones}
+\subsubsection*{Fase 2: Integración visual y colisiones}
 
-La segunda fase se centra en importar sprites, realizar slicing, configurar animaciones del jugador y construir escenarios mediante Tilemaps. Tambien se implementan colisiones con \texttt{TilemapCollider2D} y \texttt{CompositeCollider2D}.
+La segunda fase se centra en importar sprites, realizar slicing, configurar animaciones del jugador y construir escenarios mediante Tilemaps. También se implementan colisiones con \texttt{TilemapCollider2D} y \texttt{CompositeCollider2D}.
 
-\subsection{Fase 3: Enemigos y sistema de dano}
+\subsubsection*{Fase 3: Enemigos y sistema de daño}
 
-La tercera fase incorpora enemigos con IA de patrulla, persecucion y ataque. Se implementa el sistema de salud, dano mutuo, muerte de enemigos y retroalimentacion basica.
+La tercera fase incorpora enemigos con IA de patrulla, persecución y ataque. Se implementa el sistema de salud, daño mutuo, muerte de enemigos y retroalimentación básica.
 
-\subsection{Fase 4: Recoleccion, HUD y camara}
+\subsubsection*{Fase 4: Recolección, HUD y cámara}
 
-La cuarta fase incluye items recolectables, contador de Diamantes de Almas, HUD, camara con Cinemachine y efecto parallax. En esta etapa la experiencia comienza a parecerse a un corte vertical jugable.
+La cuarta fase incluye ítems recolectables, contador de Diamantes de Almas, HUD, cámara con Cinemachine y efecto parallax. En esta etapa la experiencia comienza a parecerse a un corte vertical jugable.
 
-\subsection{Fase 5: Audio, menus y mejoras}
+\subsubsection*{Fase 5: Audio, menús y mejoras}
 
-La quinta fase integra musica, efectos de sonido, menu principal, menu de pausa y sistema de mejoras. Tambien se conectan checkpoints con la economia interna.
+La quinta fase integra música, efectos de sonido, menú principal, menú de pausa y sistema de mejoras. También se conectan checkpoints con la economía interna.
 
-\subsection{Fase 6: QA, balance y build}
+\subsubsection*{Fase 6: QA, balance y build}
 
-La fase final se dedica a pruebas de calidad, resolucion de errores, ajuste de dificultad, pulido visual y sonoro, y generacion del ejecutable para Windows.
+La fase final se dedica a pruebas de calidad, resolución de errores, ajuste de dificultad, pulido visual y sonoro, y generación del ejecutable para Windows.
 

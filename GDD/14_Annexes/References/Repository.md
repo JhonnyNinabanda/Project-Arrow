@@ -1,14 +1,14 @@
-\section{Anexos: Repositorio}
+\subsection{Referencias}
 
-\subsection{Enlace al repositorio}
+\subsubsection*{Enlace al repositorio}
 
-Aqui se adjuntara el enlace al repositorio de GitHub del proyecto:
+Aquí se adjuntará el enlace al repositorio de GitHub del proyecto:
 
 \[
 \text{\texttt{Pendiente de definir}}
 \]
 
-\subsection{Uso esperado}
+\subsubsection*{Uso esperado}
 
-El repositorio debe contener el proyecto Unity, documentacion, configuracion de Git LFS, archivo \texttt{.gitignore}, historial de commits y ramas de trabajo. Su organizacion debe permitir que un evaluador academico revise tanto el codigo como el proceso de desarrollo.
+El repositorio debe contener el proyecto Unity, documentación, configuración de Git LFS, archivo \texttt{.gitignore}, historial de commits y ramas de trabajo. Su organización debe permitir que un evaluador académico revise tanto el código como el proceso de desarrollo.
 

@@ -1,22 +1,22 @@
-\section{Inteligencia Artificial: Comportamiento Enemigo}
+\subsection{Comportamiento de enemigos}
 
-\subsection{Modelo general}
+\subsubsection*{Modelo general}
 
-La inteligencia artificial se basa en una maquina de estados finitos simplificada. Este enfoque facilita la implementacion, depuracion y expansion de comportamientos. Los estados principales son patrulla, persecucion, ataque y muerte.
+La inteligencia artificial se basa en una máquina de estados finitos simplificada. Este enfoque facilita la implementación, depuración y expansión de comportamientos. Los estados principales son patrulla, persecución, ataque y muerte.
 
-\subsection{Patrulla}
+\subsubsection*{Patrulla}
 
-En estado de patrulla, el enemigo se desplaza horizontalmente usando \texttt{transform.Translate} o movimiento controlado por fisicas. Para detectar bordes, emite un \texttt{Raycast2D} hacia abajo frente a su posicion. Si el rayo no detecta suelo, el enemigo gira cambiando su orientacion.
+En estado de patrulla, el enemigo se desplaza horizontalmente usando \texttt{transform.Translate} o movimiento controlado por físicas. Para detectar bordes, emite un \texttt{Raycast2D} hacia abajo frente a su posición. Si el rayo no detecta suelo, el enemigo gira cambiando su orientación.
 
-\subsection{Persecucion}
+\subsubsection*{Persecución}
 
-La persecucion se activa cuando el jugador entra en una zona definida por un \texttt{CircleCollider2D} configurado como \emph{Trigger}. Al detectar al jugador, la IA establece como objetivo el \texttt{Transform} del personaje y se aproxima mediante \texttt{Vector2.MoveTowards} o una alternativa compatible con fisicas.
+La persecución se activa cuando el jugador entra en una zona definida por un \texttt{CircleCollider2D} configurado como \emph{Trigger}. Al detectar al jugador, la IA establece como objetivo el \texttt{Transform} del personaje y se aproxima mediante \texttt{Vector2.MoveTowards} o una alternativa compatible con físicas.
 
-\subsection{Ataque}
+\subsubsection*{Ataque}
 
-Cuando la distancia al jugador cae por debajo de un umbral determinado, el enemigo se detiene y activa un \emph{Trigger} en el \texttt{Animator}. La ventana de dano debe sincronizarse con la animacion, evitando que el jugador reciba impacto antes de una lectura visual adecuada.
+Cuando la distancia al jugador cae por debajo de un umbral determinado, el enemigo se detiene y activa un \emph{Trigger} en el \texttt{Animator}. La ventana de daño debe sincronizarse con la animación, evitando que el jugador reciba impacto antes de una lectura visual adecuada.
 
-\subsection{Muerte}
+\subsubsection*{Muerte}
 
-Al llegar sus puntos de vida a cero, el enemigo desactiva su \texttt{BoxCollider2D}, cambia su \texttt{Rigidbody2D} a modo cinematico si es necesario y reproduce la animacion de muerte. Al finalizar, el objeto se destruye mediante \texttt{Destroy} o se devuelve a un sistema de \emph{Object Pooling} si este ha sido implementado.
+Al llegar sus puntos de vida a cero, el enemigo desactiva su \texttt{BoxCollider2D}, cambia su \texttt{Rigidbody2D} a modo cinemático si es necesario y reproduce la animación de muerte. Al finalizar, el objeto se destruye mediante \texttt{Destroy} o se devuelve a un sistema de \emph{Object Pooling} si este ha sido implementado.
 

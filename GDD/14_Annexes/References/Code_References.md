@@ -1,10 +1,8 @@
-\section{Anexos: Referencias de Codigo}
+\subsubsection*{Referencias de código}
 
-\subsection{Referencia principal}
+La referencia técnica principal indicada para el proyecto es el curso de desarrollo de Unity 6 por Prime Knight.
 
-La referencia tecnica principal indicada para el proyecto es el curso de desarrollo de Unity 6 por Prime Knight.
+\subsubsection*{Criterios de uso}
 
-\subsection{Criterios de uso}
-
-Las referencias externas deben emplearse como apoyo formativo y no como sustituto de la implementacion propia. Todo codigo adaptado debe comprenderse, ajustarse a la arquitectura del proyecto y documentarse cuando sea necesario para fines academicos.
+Las referencias externas deben emplearse como apoyo formativo y no como sustituto de la implementación propia. Todo código adaptado debe comprenderse, ajustarse a la arquitectura del proyecto y documentarse cuando sea necesario para fines académicos.
 

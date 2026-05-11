@@ -1,18 +1,18 @@
-\section{Interfaz de Usuario: HUD}
+\subsection{HUD}
 
-\subsection{Diseno general}
+\subsubsection*{Diseño general}
 
-El HUD se construye en un \texttt{Canvas} configurado en modo \emph{Scale With Screen Size}. Esta configuracion evita deformaciones y permite que la interfaz conserve proporciones adecuadas en diferentes resoluciones de pantalla.
+El HUD se construye en un \texttt{Canvas} configurado en modo \emph{Scale With Screen Size}. Esta configuración evita deformaciones y permite que la interfaz conserve proporciones adecuadas en diferentes resoluciones de pantalla.
 
-\subsection{Elementos principales}
+\subsubsection*{Elementos principales}
 
-En la esquina superior izquierda se ubica la informacion vital del jugador. La salud se representa mediante iconos de corazones usando componentes \texttt{UI Image}, acompanados por un contador numerico cuando sea necesario. Cerca de esta zona se muestra el contador de Diamantes de Almas.
+En la esquina superior izquierda se ubica la información vital del jugador. La salud se representa mediante iconos de corazones usando componentes \texttt{UI Image}, acompañados por un contador numérico cuando sea necesario. Cerca de esta zona se muestra el contador de Diamantes de Almas.
 
-\subsection{Textos flotantes de dano}
+\subsubsection*{Textos flotantes de daño}
 
-Cuando un enemigo recibe dano, se instancia un prefab de texto en el espacio del mundo o en un Canvas asociado. Este texto flota hacia arriba y se desvanece progresivamente mediante reduccion del valor alfa. La animacion puede implementarse con un \texttt{Animator}, una corrutina o un sistema de tweening si el proyecto incorpora una libreria externa.
+Cuando un enemigo recibe daño, se instancia un prefab de texto en el espacio del mundo o en un Canvas asociado. Este texto flota hacia arriba y se desvanece progresivamente mediante reducción del valor alfa. La animación puede implementarse con un \texttt{Animator}, una corrutina o un sistema de tweening si el proyecto incorpora una librería externa.
 
-\subsection{Criterios de claridad}
+\subsubsection*{Criterios de claridad}
 
-La interfaz debe ser legible sin ocupar espacio excesivo. Los indicadores deben comunicar informacion esencial y evitar distracciones durante combate o plataformas. La estetica debe integrarse con el tono del juego mediante bordes, iconografia y colores coherentes con la fantasia gotica.
+La interfaz debe ser legible sin ocupar espacio excesivo. Los indicadores deben comunicar información esencial y evitar distracciones durante combate o plataformas. La estética debe integrarse con el tono del juego mediante bordes, iconografía y colores coherentes con la fantasía gótica.
 

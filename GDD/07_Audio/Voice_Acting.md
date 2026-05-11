@@ -1,14 +1,14 @@
-\section{Audio: Voz y Dialogo}
+\subsection{Voces}
 
-\subsection{Alcance inicial}
+\subsubsection*{Alcance inicial}
 
-El prototipo no requiere actuacion de voz completa. Para mantener un alcance realista, los dialogos pueden representarse mediante texto en pantalla, sonidos vocales abstractos o breves susurros procesados para personajes espirituales.
+El prototipo no requiere actuación de voz completa. Para mantener un alcance realista, los diálogos pueden representarse mediante texto en pantalla, sonidos vocales abstractos o breves susurros procesados para personajes espirituales.
 
-\subsection{Uso potencial de voz}
+\subsubsection*{Uso potencial de voz}
 
-En una version expandida, Elara podria contar con lineas breves de guia o advertencia, mientras que Zarok podria intervenir mediante frases distorsionadas antes de encuentros clave. Estas voces deberian utilizarse con moderacion para preservar misterio y evitar una produccion sonora demasiado costosa.
+En una versión expandida, Elara podría contar con líneas breves de guía o advertencia, mientras que Zarok podría intervenir mediante frases distorsionadas antes de encuentros clave. Estas voces deberían utilizarse con moderación para preservar misterio y evitar una producción sonora demasiado costosa.
 
-\subsection{Criterios de implementacion}
+\subsubsection*{Criterios de implementación}
 
-Si se incorporan voces, deben mezclarse con claridad, respetar el tono gotico del juego y contar con subtitulos. Los archivos deberian almacenarse en formatos comprimidos y gestionarse con Git LFS, debido a su peso dentro del repositorio.
+Si se incorporan voces, deben mezclarse con claridad, respetar el tono gótico del juego y contar con subtítulos. Los archivos deberían almacenarse en formatos comprimidos y gestionarse con Git LFS, debido a su peso dentro del repositorio.
 

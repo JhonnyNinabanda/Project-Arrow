@@ -1,18 +1,20 @@
-\section{Monetizacion y Alcance}
+\subsection{Modelo de negocio}
 
-\subsection{Proposito del proyecto}
+\subsubsection*{Propósito del proyecto}
 
-\emph{Chronicles of the Cursed Knight} se concibe principalmente como proyecto academico y pieza central de portafolio profesional. Su finalidad inmediata no es comercial, sino demostrar competencias de diseno, programacion, documentacion, arte tecnico y gestion de produccion.
+\emph{Chronicles of the Cursed Knight} se concibe principalmente como proyecto académico y pieza central de portafolio profesional. Su finalidad inmediata no es comercial, sino demostrar competencias de diseño, programación, documentación, arte técnico y gestión de producción.
 
-\subsection{Modelo inicial}
+\subsubsection*{Modelo inicial}
 
-Durante la fase academica, el producto puede distribuirse de forma gratuita como demostracion jugable. Plataformas como Itch.io permiten publicar prototipos, recibir retroalimentacion y construir presencia profesional sin exigir una infraestructura comercial compleja.
+Durante la fase académica, el producto puede distribuirse de forma gratuita como demostración jugable. Plataformas como Itch.io permiten publicar prototipos, recibir retroalimentación y construir presencia profesional sin exigir una infraestructura comercial compleja.
 
-\subsection{Expansion futura}
+\subsection{Extras}
 
-El diseno modular permite considerar expansiones posteriores, tales como nuevos niveles, jefes, mejoras, cosmeticos o contenido descargable. En caso de evolucion comercial, el proyecto podria adoptar un modelo gratuito con donaciones voluntarias, venta de version completa o distribucion indie de bajo costo.
+\subsubsection*{Expansión futura}
 
-\subsection{Criterio de alcance}
+El diseño modular permite considerar expansiones posteriores, tales como nuevos niveles, jefes, mejoras, cosméticos o contenido descargable. En caso de evolución comercial, el proyecto podría adoptar un modelo gratuito con donaciones voluntarias, venta de versión completa o distribución indie de bajo costo.
 
-La monetizacion no debe condicionar el prototipo inicial. La prioridad es completar una experiencia consistente, pulida y evaluable. Cualquier expansion comercial debe considerarse despues de validar la base jugable y la capacidad de produccion del equipo.
+\subsubsection*{Criterio de alcance}
+
+La monetización no debe condicionar el prototipo inicial. La prioridad es completar una experiencia consistente, pulida y evaluable. Cualquier expansión comercial debe considerarse después de validar la base jugable y la capacidad de producción del equipo.
 

@@ -1,24 +1,24 @@
-\section{Diseno de Niveles: Estructura}
+\subsection{Estructura}
 
-\subsection{Organizacion general}
+\subsubsection*{Organización general}
 
-El juego se organiza en biomas o zonas tematicas conectadas de forma progresiva. Cada zona introduce nuevos desafios, refuerza mecanicas previamente aprendidas y aporta informacion narrativa sobre la caida del castillo.
+El juego se organiza en biomas o zonas temáticas conectadas de forma progresiva. Cada zona introduce nuevos desafíos, refuerza mecánicas previamente aprendidas y aporta información narrativa sobre la caída del castillo.
 
-\subsection{Jardines Marchitos}
+\subsubsection*{Jardines Marchitos}
 
-Los Jardines Marchitos funcionan como nivel tutorial. Presentan espacios relativamente abiertos, plataformas simples y enemigos basicos. Su objetivo es ensenar movimiento, salto, ataque y recoleccion sin sobrecargar al jugador.
+Los Jardines Marchitos funcionan como nivel tutorial. Presentan espacios relativamente abiertos, plataformas simples y enemigos básicos. Su objetivo es enseñar movimiento, salto, ataque y recolección sin sobrecargar al jugador.
 
-Los enemigos iniciales pueden incluir esqueletos de baja movilidad y orcos estaticos o de patrulla corta. La arquitectura debe mostrar ruina exterior: arboles secos, estatuas rotas, rejas oxidadas y muros parcialmente destruidos.
+Los enemigos iniciales pueden incluir esqueletos de baja movilidad y orcos estáticos o de patrulla corta. La arquitectura debe mostrar ruina exterior: árboles secos, estatuas rotas, rejas oxidadas y muros parcialmente destruidos.
 
-\subsection{Mazmorras del Eco}
+\subsubsection*{Mazmorras del Eco}
 
-Las Mazmorras del Eco presentan espacios cerrados, verticalidad, trampas de pinchos y enemigos con patrones mas agresivos. En esta zona se introducen murcielagos, arqueros y segmentos donde el jugador debe combinar salto, combate y lectura de peligros ambientales.
+Las Mazmorras del Eco presentan espacios cerrados, verticalidad, trampas de pinchos y enemigos con patrones más agresivos. En esta zona se introducen murciélagos, arqueros y segmentos donde el jugador debe combinar salto, combate y lectura de peligros ambientales.
 
-\subsection{Torre del Hechicero}
+\subsubsection*{Torre del Hechicero}
 
-La Torre del Hechicero representa el tramo final del prototipo o de la primera version completa. Incluye plataformas moviles, zonas de caida libre, enemigos combinados y el combate contra Zarok. Su diseno debe transmitir ascenso, presion y cercania al origen de la maldicion.
+La Torre del Hechicero representa el tramo final del prototipo o de la primera versión completa. Incluye plataformas móviles, zonas de caída libre, enemigos combinados y el combate contra Zarok. Su diseño debe transmitir ascenso, presión y cercanía al origen de la maldición.
 
-\subsection{Construccion tecnica del entorno}
+\subsubsection*{Construcción técnica del entorno}
 
-El terreno se construye mediante \texttt{Grid} y \texttt{Tilemap} en Unity. Para optimizar colisiones, se recomienda utilizar \texttt{TilemapCollider2D} junto con \texttt{CompositeCollider2D}, permitiendo unificar superficies y reducir calculos innecesarios.
+El terreno se construye mediante \texttt{Grid} y \texttt{Tilemap} en Unity. Para optimizar colisiones, se recomienda utilizar \texttt{TilemapCollider2D} junto con \texttt{CompositeCollider2D}, permitiendo unificar superficies y reducir cálculos innecesarios.
 
