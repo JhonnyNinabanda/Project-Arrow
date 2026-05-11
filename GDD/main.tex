@@ -1,0 +1,134 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{float}
+
+% Configuración de márgenes
+\geometry{top=2.5cm, bottom=2.5cm, left=3cm, right=3cm}
+
+% Configuración de encabezados y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textit{Chronicles of the Cursed Knight}}
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{\textit{Game Design Document}}
+
+% Formato de títulos
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+
+% Configuración del índice
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\bfseries}
+\renewcommand{\cftsubsecfont}{\itshape}
+\renewcommand{\cfttoctitlefont}{\Large\bfseries}
+
+% Configuración de listings
+\usepackage{xcolor}
+
+\lstset{
+    inputencoding=utf8,
+    extendedchars=true,
+    literate={├}{{\textbar}}1
+             {─}{{\textendash}}1
+             {│}{{\textbar}}1
+             {└}{{\textbar}}1,
+    basicstyle=\ttfamily\footnotesize, % Fuente monoespaciada y tamaño pequeño
+    keywordstyle=\bfseries\color{blue}, % Palabras clave en negrita y azul
+    commentstyle=\itshape\color{green!50!black}, % Comentarios en cursiva y verde oscuro
+    stringstyle=\color{red}, % Cadenas en rojo
+    numberstyle=\tiny\color{gray}, % Números de línea en gris y tamaño pequeño
+    backgroundcolor=\color{gray!10}, % Fondo gris claro
+    frame=shadowbox, % Marco sombreado
+    rulesepcolor=\color{gray!20}, % Color del borde interno del marco
+    breaklines=true, % Permitir líneas largas divididas
+    numbers=left, % Numeración de líneas a la izquierda
+    captionpos=b, % Posición del título del código (abajo)
+    showspaces=false, % No mostrar espacios como símbolos
+    showstringspaces=false, % No mostrar espacios en cadenas
+    tabsize=4, % Tamaño del tabulador
+    morekeywords={self, with, as}, % Agregar más palabras clave si es necesario
+}
+
+\begin{document}
+
+% Portada
+\input{pages/portada}
+
+% Índice
+\tableofcontents
+\newpage
+
+% Secciones del documento
+\input{01_General/General_Info.md}
+\newpage
+
+\input{02_Executive_Summary/Summary.md}
+\newpage
+
+\input{03_Gameplay/Mechanics.md}
+\input{03_Gameplay/Game_Loop.md}
+\input{03_Gameplay/Controls.md}
+\newpage
+
+\input{04_Narrative/Synopsis.md}
+\input{04_Narrative/World_Building.md}
+\input{04_Narrative/Characters.md}
+\newpage
+
+\input{05_Level_Design/Structure.md}
+\input{05_Level_Design/Progression.md}
+\input{05_Level_Design/Objectives.md}
+\newpage
+
+\input{06_Art_Visuals/Art_Style.md}
+\input{06_Art_Visuals/Color_Palette.md}
+\input{06_Art_Visuals/References/Visual_References.md}
+\newpage
+
+\input{07_Audio/Music.md}
+\input{07_Audio/Sound_Effects.md}
+\input{07_Audio/Voice_Acting.md}
+\newpage
+
+\input{08_UI_UX/HUD.md}
+\input{08_UI_UX/Menus.md}
+\input{08_UI_UX/Navigation_Flow.md}
+\newpage
+
+\input{09_AI/Enemy_Behavior.md}
+\input{09_AI/NPCs.md}
+\input{09_AI/Difficulty_Scaling.md}
+\newpage
+
+\input{10_Technical/Architecture.md}
+\input{10_Technical/APIs_SDKs.md}
+\input{10_Technical/Requirements.md}
+\newpage
+
+\input{11_Monetization/Business_Model.md}
+\newpage
+
+\input{12_Development_Plan/Phases.md}
+\input{12_Development_Plan/Timeline.md}
+\newpage
+
+\input{13_Risks/Risk_Assessment.md}
+\newpage
+
+\input{14_Annexes/Diagrams/Technical_Diagrams.md}
+\input{14_Annexes/Mockups/Interface_Mockups.md}
+\input{14_Annexes/References/Repository.md}
+\input{14_Annexes/References/Code_References.md}
+
+
+\end{document}
