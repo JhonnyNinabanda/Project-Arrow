@@ -1,18 +1,19 @@
 \subsection{Sinopsis}
 
-\subsubsection*{Premisa}
+\textit{Chronicles of the Cursed Knight} es un videojuego de aventura, acción y plataformas con enfoque visual \textbf{2.5D}, ambientado en un reino medieval fantástico consumido lentamente por una misteriosa corrupción.
 
-Sir Gareth despierta en los jardines exteriores de un castillo en ruinas sin recuerdos claros de su identidad ni de los acontecimientos que condujeron a la destrucción del reino. Su única guía es una voz etérea que lo llama desde el interior de la fortaleza. A medida que avanza, descubre que no es un visitante accidental, sino una pieza central de la tragedia.
+Durante siglos, el reino de Valtheria prosperó bajo la protección de Eldergrove, un bosque sagrado conectado al \textit{Corazón del Bosque}, una antigua reliquia mágica capaz de mantener el equilibrio natural y contener las fuerzas oscuras ocultas en las profundidades del mundo.
 
-\subsubsection*{Estructura en tres actos}
+Sin embargo, tras un evento desconocido conocido como \textit{La Noche de la Ceniza}, una energía corrupta comenzó a expandirse desde el interior del bosque. La naturaleza se marchitó, antiguas estructuras quedaron abandonadas y los guardianes encargados de proteger Eldergrove fueron transformados en criaturas hostiles dominadas por la oscuridad.
 
-\textbf{Acto I: La Caída.} Gareth despierta entre jardines marchitos, estatuas quebradas y restos de una batalla antigua. En esta etapa aprende las mecánicas básicas de movimiento, salto y combate. El jugador descubre que el castillo ha sido corrompido por una fuerza oscura y que las almas de sus habitantes permanecen atrapadas.
+Ante la desaparición de varios exploradores y el avance imparable de la corrupción hacia las aldeas del reino, el Consejo Real decide enviar a \textbf{Sir Gareth}, uno de los últimos caballeros arqueros de Valtheria, reconocido por su habilidad en combate y su experiencia explorando regiones prohibidas.
 
-\textbf{Acto II: La Revelación.} Al internarse en las mazmorras y la biblioteca, el entorno revela fragmentos del pasado. Gareth fue Capitán de la Guardia y abandonó su juramento al buscar poder para vencer una amenaza que no comprendía. Su ausencia permitió que el Hechicero Oscuro tomara el control y condenara a la princesa Elara y al reino.
+La misión de Sir Gareth consiste en adentrarse en Eldergrove, descubrir el origen de la corrupción y recuperar los fragmentos perdidos del Corazón del Bosque antes de que el reino colapse completamente.
 
-\textbf{Acto III: La Redención.} Gareth asciende a la torre principal para enfrentar a Zarok. La victoria no deshace el pasado ni restaura completamente el reino, pero libera las almas atrapadas y permite al protagonista aceptar su responsabilidad. El cierre narrativo se orienta hacia la paz, no hacia la negación de la culpa.
+A lo largo de su travesía, el jugador recorrerá bosques encantados, ruinas antiguas, puentes colgantes, torres abandonadas y cuevas ocultas mientras enfrenta múltiples amenazas como guardianes corrompidos, ninjas de la sombra, esqueletos reanimados y antiguas trampas mágicas aún activas.
 
-\subsubsection*{Tono narrativo}
+Además del combate con arco y exploración, el videojuego incorpora mecánicas de plataformas dinámicas donde el jugador deberá superar cuchillas móviles, explosiones de fuego, estructuras inestables y zonas de difícil acceso que pondrán a prueba la precisión, velocidad y reflejos del jugador.
 
-La historia adopta un tono melancólico, gótico y reflexivo. La fantasía oscura se emplea como vehículo para explorar temas de responsabilidad, memoria, sacrificio y redención. El objetivo no es presentar una narrativa extensa en diálogos, sino integrarla con el espacio, los enemigos, los objetos y los cambios progresivos del castillo.
+Visualmente, el proyecto combina gráficos \textit{Pixel Art} con composición de escenarios \textbf{2.5D}, utilizando fondos multicapa, efectos de profundidad y sistemas de \textit{parallax scrolling} para generar una sensación de inmersión y escala dentro del mundo fantástico de Valtheria.
 
+La propuesta narrativa busca transmitir aventura, misterio y decadencia, combinando exploración ambiental, narrativa visual y progresión del personaje dentro de un universo medieval oscuro inspirado en videojuegos clásicos de plataformas y acción.
