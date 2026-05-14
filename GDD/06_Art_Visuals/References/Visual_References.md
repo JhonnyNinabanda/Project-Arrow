@@ -1,6 +1,6 @@
-\subsection{Referencias}
+\subsection{Referencias visuales}
 
-\subsubsection*{Propósito}
+La dirección artística de \emph{Chronicles of the Cursed Knight} toma inspiración de videojuegos de fantasía oscura, arquitectura gótica y composiciones visuales centradas en atmósfera, profundidad y legibilidad en pixel art.
 
 El presente apartado recopila las referencias visuales, técnicas y narrativas utilizadas como inspiración durante el desarrollo de \textit{Chronicles of the Cursed Knight}. Estas referencias permiten establecer una dirección artística coherente y sirven como guía conceptual para aspectos relacionados con escenarios, ambientación, composición visual, narrativa ambiental, diseño de interfaces y estilo de comunicación entre personajes.
 
@@ -71,7 +71,15 @@ Los principales aspectos estudiados incluyen:
 
 Estas referencias permiten desarrollar un sistema narrativo ligero, coherente con la estética \textit{pixel art} y alineado con el alcance técnico del prototipo.
 
-\subsubsection*{Criterios de selección}
+\begin{itemize}
+    \item Estilo visual general.
+    \item Uso de iluminación y color.
+    \item Composición de escenarios.
+    \item Diseño de personajes y enemigos.
+    \item Construcción de atmósfera.
+    \item Efectos visuales y partículas.
+    \item Legibilidad durante combate y exploración.
+\end{itemize}
 
 Todas las referencias incorporadas deben cumplir criterios relacionados con calidad artística, coherencia estética y aplicabilidad dentro del proyecto. Cada referencia debe aportar valor visual, técnico o narrativo al análisis de diseño.
 
